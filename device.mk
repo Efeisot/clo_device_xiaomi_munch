@@ -64,3 +64,6 @@ $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
 
 # Sign Keys
 -include vendor/lineage-priv/keys/keys.mk
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)

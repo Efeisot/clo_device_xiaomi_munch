@@ -27,5 +27,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Inherit from the proprietary version
 include vendor/xiaomi/munch/BoardConfigVendor.mk
 
- # Inherit Firmware
- -include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
+# Inherit Firmware
+-include vendor/xiaomi/munch-firmware/BoardConfigVendor.mk
+
+# Miui Camera
+TARGET_INCLUDES_MIUI_CAMERA := true
