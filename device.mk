@@ -60,3 +60,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/munch/munch-vendor.mk)
+
+
+# Sign Keys
+-include vendor/lineage-priv/keys/keys.mk
